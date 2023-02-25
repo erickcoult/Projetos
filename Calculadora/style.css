@@ -4,3 +4,72 @@
     box-sizing: border-box;
 
 }
+body{
+    letter-spacing: 10px;
+    font-size: 1.8rem;
+}
+.calculadora{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+.input{
+border: 1px solid black;
+width: 400px;
+height: 60px;
+text-align: right;
+margin-left: 37%;
+}
+
+.operators div{
+    width: 80px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border: solid 1px red;
+    border-radius: 3px;
+    margin: 20px 4px 10px 0;
+}
+.operators div:hover{
+    box-shadow: 1px 1px 6px 1px #00000061;
+    transition: 0.3s;
+}
+.leftpanel{
+    display: inline-block;
+}
+.number div{
+    width: 80px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    border: solid 1px red;
+    border-radius: 3px;
+    margin: 20px 4px 10px 0;
+}
+.number div:hover{
+    box-shadow: 1px 1px 6px 1px #00000061;
+    transition: 0.3s;
+}
+
+.equal{
+    background-color: skyblue;
+    display: inline-block;
+    width: 5%;
+    padding: 138px 10px;
+    vertical-align: top;
+    text-align: center;
+    cursor: pointer;
+    border: solid 1px red;
+    margin: 20px 4px 10px 0;
+    
+}
+.equal:active{
+    font-weight: bold;
+}
+.equal:hover{
+    transition: 0.5s;
+    background: linear-gradient(45deg, skyblue, rgb(4, 169, 234));
+    box-shadow: 1px 1px 6px 1px #00000061;
+}
